@@ -45,3 +45,13 @@ async function tryCatchExample() {
 }
 
 tryCatchExample();
+
+
+const someRandom = () => {
+    let a = b = 99;
+    console.log(a)
+    
+}
+
+someRandom()
+console.log(b)
