@@ -15,7 +15,6 @@
 
 const toArray = ( objToConvert ) => {
     if ( Object.keys( objToConvert ).length === 0 ) {
-
         return []
     }
 
